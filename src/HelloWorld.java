@@ -1,5 +1,7 @@
 public class HelloWorld {
 	public static void main(String [] args) {
-		System.out.println(Hola bootCampers!);
+		// Sacamos la variable para que sea más sencillo de modificar.
+		String msg = "Hola bootCampers!";
+		System.out.println(msg);
 	}
 }
